@@ -23,7 +23,7 @@ function managePerson(arr, rowSeats) {
   let row = 0;
   counter = 0
   
-  for (let i = 0; i < arr.length - 1; i++) {
+  for (let i = 0; i < arr.length; i++) {
     seats[row].push(arr[i]);
     // console.log(row)
     if (row < 2) {
